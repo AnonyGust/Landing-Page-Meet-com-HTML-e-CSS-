@@ -1,0 +1,151 @@
+/*Versão Desktop*/
+@media (max-width: 900px) {
+    .img-right{
+        display:none;
+    }
+    .img-left{
+        display: none;
+    }
+    .img-mobile{
+        display: flex;
+        background-image: url(../tablet/image-hero.png);
+        width: 80%;
+        margin: auto;
+        background-size: contain;
+        background-position: left center;
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+    .content-section1{
+        display: initial;
+    }
+    .content-text{
+        max-width: 500px;
+        height: 500px;
+    }
+    .content-text2{
+        margin-bottom: 40px;
+        
+    }
+    .content-section2{
+        height: 1200px;
+    }
+}
+
+/*Versão Tablet*/
+@media (max-width: 768px){
+
+    .content-section1 h1{
+        font-size: 50px;
+    }
+
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .btns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .content-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-bottom: 40px;
+        gap: 0;
+    }
+
+    .content-footer h1{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-footer p{
+        font-size: 20px;
+        width: 70%;
+        text-align: center;
+    }
+    
+}
+/*Versão Mobile*/
+@media (max-width: 533px){
+
+    .content-header{
+        height: 50px;
+    }
+
+    .img-mobile{
+        height: 300px;
+    }
+
+    .content-section1 h1{
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .content-section1 p{
+        font-size: 18px;
+    }
+
+    .content-section2{
+        height: 1100px;
+        margin: 0;
+    }
+
+    .btn1, .btn2{
+        padding: 15px 15px;
+    }
+
+    .img{
+        width: 150px;
+        height: 150px;
+        min-width: 100px;
+        min-height: 100px;
+    }
+
+    .content-section2::before{
+        margin-top: 40px;
+        height: 40px;
+        top: -105px;
+    }
+
+    .content-section2::after{
+        margin-top: 40px;
+    }
+
+    .content-text2 h3{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .content-text2 h1{
+        font-size: 25px;
+    }
+
+    .content-text2 p{
+        font-size: 15px;
+        width: 70%;
+        margin-bottom: 60px;
+        
+    }
+
+    .content-footer h1{
+        font-size: 25px;
+    }
+
+    .content-footer p{
+        font-size: 15px;
+    }
+
+    .content-footer::before{
+        margin-top: 20px;
+    }
+
+}
